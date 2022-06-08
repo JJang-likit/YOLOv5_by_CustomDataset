@@ -30,6 +30,18 @@
 3. Weights 변경
   - yolov5s.pt -> yolov5n.pt
 
+## Operation
+```
+!python detect.py --weights --source 0 # webcam
+                                     img.jpg # image
+                                     vid.mp4 # video
+                                     path/ # directory
+                                     path/*.jpg # glob
+                                     'https://youtube.be' # Youtube
+```
+- --weights에 사용하려는 weights 경로 입력
+
+
 ## Result
 - 결과는 runs/detect/ 에서 확인이 가능하다.
 
