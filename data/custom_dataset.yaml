@@ -1,0 +1,7 @@
+path: /content/drive/MyDrive/yolov5/custom_dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['box']
