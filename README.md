@@ -32,11 +32,11 @@
 
 ## Operation
 ```
-!python detect.py --weights --source 0 # webcam
-                                     img.jpg # image
-                                     vid.mp4 # video
-                                     path/ # directory
-                                     path/*.jpg # glob
+!python detect.py --weights --source 0                    # webcam
+                                     img.jpg              # image
+                                     vid.mp4              # video
+                                     path/                # directory
+                                     path/*.jpg           # glob
                                      'https://youtube.be' # Youtube
 ```
 - --weights에 사용하려는 weights 경로 입력
