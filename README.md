@@ -39,8 +39,8 @@
                                      path/*.jpg           # glob
                                      'https://youtube.be' # Youtube
 ```
-- --weights에 사용하려는 weights 경로 입력
-
+- weights에 사용하려는 weights 경로 입력
+- source에 옳바른 경로를 입력해줘야 함
 
 ## Result
 - 결과는 runs/detect/ 에서 확인이 가능하다.
