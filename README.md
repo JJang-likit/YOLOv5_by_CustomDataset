@@ -35,4 +35,8 @@
 
 ## Limit
 - box의 feature가 많지 않아서 훈련된 모델이 box와 비슷한 색상, 모양의 물체를 box로 인식하는 경우가 있다.
-- 더 많은 데이터셋으로 훈련을 진행하면 성능 향상을 기대할 수 있지만 box의
+- 더 많은 데이터셋으로 훈련을 진행하면 성능 향상을 기대할 수 있지만 box의 feature를 고려할 때 큰 성능 향상을 기대하기는 어려울 것으로 예측된다.
+
+## Reference
+- YOLO v5 : https://github.com/ultralytics/yolov5
+- Project Notion Page : https://www.notion.so/Training-the-YOLO-Model-by-Custom-dataset-ee4066be13f2425f8b63add0dce8aada
